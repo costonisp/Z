@@ -1,12 +1,12 @@
 Name   |IP |Task            |Name    |IDX |	GPIO|	Number
 ----   |---|----            |-----   |----|------|------
 SO-RF  |103|1-Switch input  |Sw1  	 |431 | 0	  |1
--- 		 |   |3-System Info 	|ram  	 |999 | 		
--- 	   |   |4-System Info   |up      |436 |	  |
+.  		 |   |3-System Info 	|ram  	 |999 | 		
+.  	   |   |4-System Info   |up      |436 |	  |
 ||||||
 SO-FD  |104|1-Switch input  |Sw1     |421 |0 | 
---     |   |3-System Info   |up      |786 |		
--- 		 |   |4-System Info 	|ram  	 |999 | 		
+.      |   |3-System Info   |up      |786 |		
+.  		 |   |4-System Info 	|ram  	 |999 | 		
 ||||||
 SO-BL  |105|1-Switch input  |Sw1     |421 |0 | 	
 ||||||				
