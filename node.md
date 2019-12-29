@@ -9,7 +9,7 @@ SO-FD     |104|1-Switch input|Switch1|421 | 0    |
 -----     |   |4-System Info |ram    |none|      |
 .         |   |              |       |    |      |
 SO-BL     |105|           |      |    |      |
-     |   |           |      |    |      |
+ |   |           |      |    |      |
 -----     |   |           |      |    |      |
 SO-2relais|106|           |      |    |      |
 -----     |   |           |      |    |      |
