@@ -1,5 +1,11 @@
 Name   |IP |Task - Device   |Name    |IDX |GPIO|	Number
 -------|---|----------------|--------|----|----|------
+ESP-GW |102|1-Temp-DS18b20  |DS18 	 |800 |14  |2
+.  		 |   |4-Dummym Info 	|Fan  	 |999 |
+.      |   |5-System Info   |up      |801 |
+.  		 |   |6-System Info 	|ram  	 |802 |
+.  	   |   |7-System Info   |load    |803 |	   |
+||||||
 SO-RF  |103|1-Switch input  |Sw1  	 |431 |0   |3
 .  		 |   |3-System Info 	|ram  	 |999 |
 .  	   |   |4-System Info   |up      |436 |	   |
