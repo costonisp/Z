@@ -54,23 +54,21 @@ bld:mega|   |8 |System Info   |ram    |480 |	  |
 .  	    |   |11|System Info   |web    |... |    |
 .  	    |   |12|System Info   |stack  |... |    |
 |||||||
-SO-POW1 |121|1 |System Info   |up     |810 |    |21
-sda-IO13|   |2 |Light-BH1750  |bh1750 |789 |I2C |
-scl-IO12|   |3 |TempHum SI7021|si7021 |760 |I2C |
-.  		  |   |4 |Analog input	|temp   |798 |ADC |
-bld:mega|   |8 |System Info   |ram    |480 |	  |
-20191208|   |9 |System Info   |rrsi   |750 |	  |
-.  	    |   |10|System Info   |load   |... |    |
-.  	    |   |11|System Info   |web    |... |    |
-.  	    |   |12|System Info   |stack  |... |    |
+SO-POW1 |121|  |Switch        |Sw     |810 |    |21
+sda-IO13|   |  |Current       |Ampere |789 |I2C |
+scl-IO12|   |  |Voltage       |Volt   |760 |I2C |
+.  		  |   |  |Active Power	|Watt   |798 |ADC |
+bld:mega|   |  |Reactive Power|Watt   |480 |	  |
+20191208|   |  |Apparent Power|Watt   |750 |	  |
+.  	    |   |  |Power factor  |cos-phi|... |    |
+.  	    |   |  |Energy        |kWh    |... |    |
 |||||||
-SO-POW2 |122|1 |Switch        |up     |731 |    |22
-.       |   |2 |Light-BH1750  |bh1750 |741 |I2C |
-Espurna |   |3 |TempHum SI7021|si7021 |739 |I2C |
-v 1.13.3|   |4 |Analog input	|temp   |733 |ADC |
-.       |   |8 |System Info   |ram    |735 |	  |
-.       |   |9 |System Info   |rrsi   |737 |	  |
-.  	    |   |10|System Info   |load   |743 |    |
-.  	    |   |11|System Info   |web    |745 |    |
-.  	    |   |12|System Info   |stack  |... |    |
+SO-POW2 |122|  |Switch        |Sw     |731 |    |22
+.       |   |  |Current       |Ampere |741 |I2C |
+Espurna |   |  |Voltage       |Volt   |739 |I2C |
+v 1.13.3|   |  |Active Power	|Watt   |733 |ADC |
+.       |   |  |Reactive Power|Watt   |735 |	  |
+.       |   |  |Apparent Power|Watt   |737 |	  |
+.  	    |   |  |Power factor  |cos-phi|743 |    |
+.  	    |   |  |Energy        |kWh    |745 |    |
 |||||||
