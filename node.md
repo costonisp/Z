@@ -27,5 +27,5 @@ SO-SL  |107|1|Switch input  |Sw1     |591 |0   |7
 |||||||
 SO-4MB |108|1|Switch input  |Sw1     |809 |0   |8
 -- 	   |   |3|System Info   |up      |747 |	   |
--- 	   |   |4-System Info   |ram     |999 |	   |
+-- 	   |   |4|System Info   |ram     |999 |	   |
 |||||||
