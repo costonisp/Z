@@ -55,11 +55,11 @@ bld:mega|   |8 |System Info   |ram    |480 |	  |
 .  	    |   |12|System Info   |stack  |... |    |
 |||||||
 SO-POW1 |121|  |Switch        |Sw     |810 |    |21
-sda-IO13|   |  |Current       |Ampere |789 |I2C |
-scl-IO12|   |  |Voltage       |Volt   |760 |I2C |
-.  		  |   |  |Active Power	|Watt   |798 |ADC |
-bld:mega|   |  |Reactive Power|Watt   |480 |	  |
-20191208|   |  |Apparent Power|Watt   |750 |	  |
+.       |   |  |Current       |Ampere |789 |I2C |
+Espurna |   |  |Voltage       |Volt   |760 |I2C |
+v 1.13.3|   |  |Active Power	|Watt   |798 |ADC |
+.       |   |  |Reactive Power|Watt   |480 |	  |
+.       |   |  |Apparent Power|Watt   |750 |	  |
 .  	    |   |  |Power factor  |cos-phi|... |    |
 .  	    |   |  |Energy        |kWh    |... |    |
 |||||||
