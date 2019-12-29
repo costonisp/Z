@@ -29,7 +29,7 @@ SO-4MB  |108|1|Switch input  |Sw1    |809 |0   |8
 .  	    |   |3|System Info   |up     |747 |	   |
 .  	    |   |4|System Info   |ram    |... |	   |
 |||||||
-ESPh801 |111|1|PMExt-Port100 |lamel  |572 |I2C |11
+ESP-H801|111|1|PMExt-Port100 |lamel  |572 |I2C |11
 sda-IO3 |   |2|PMExt-Port101 |lamel= |425 |I2C |
 scl-IO1 |   |5|Analog input  |lux    |537 |ADC |
 .  		  |   |6|System Info   |load 	 |571 |
@@ -44,7 +44,7 @@ scl-IO4 |   |3|System Info   |up     |... |    |
 bld:148 |   |5|System Info   |load   |... |	   |
 .  	    |   |6|System Info   |rrsi   |... |	   |
 |||||||
-ESPh801 |114|1|PMExt-Port100 |lamel  |572 |I2C |14
+ESP-MCU |114|1|PMExt-Port100 |lamel  |572 |I2C |14
 sda-IO13|   |2|PMExt-Port101 |lamel= |425 |I2C |
 scl-IO12|   |5|Analog input  |lux    |537 |ADC |
 .  		  |   |6|System Info 	 |load 	 |571 |
