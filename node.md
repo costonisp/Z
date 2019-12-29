@@ -45,7 +45,10 @@ scl-IO4 |   |3 |System Info   |up     |... |    |
 bld:148 |   |5 |System Info   |load   |... |	  |
 .  	    |   |6 |System Info   |rrsi   |... |	  |
 |||||||
-ESP-MCU |114|1 |System Info   |up     |810 |    |5C:CF:7F:19:68:B7
+ESP-MCUl|113|1 |System Info   |up     |811 |    |5C:CF:7F:13:8C:E4
+.  		  |   |  |            	|     	|    |	  |5C:CF:7F:13:8C:E4
+|||||||
+ESP-test|114|1 |System Info   |up     |810 |    |5C:CF:7F:19:68:B7
 sda-IO13|   |2 |Light-BH1750  |bh1750 |789 |I2C |5C:CF:7F:19:68:B7
 scl-IO12|   |3 |TempHum SI7021|si7021 |760 |I2C |
 .  		  |   |4 |Analog input	|temp   |798 |ADC |
