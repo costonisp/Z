@@ -46,11 +46,11 @@ bld:148 |   |5 |System Info   |load   |... |	   |
 |||||||
 ESP-MCU |114|1 |System Info   |up     |810 |    |14
 sda-IO13|   |2 |Light-BH1750  |bh1750 |789 |I2C |
-scl-IO12|   |3 |Analog input  |si7021 |760 |I2C |
-.  		  |   |4 |System Info 	|temp   |798 |ADC
+scl-IO12|   |3 |TempHum SI7021|si7021 |760 |I2C |
+.  		  |   |4 |Analog input	|temp   |798 |ADC
 bld:mega|   |8 |System Info   |ram    |480 |	   |
 20191208|   |9 |System Info   |rrsi   |750 |	   |
-.  	    |   |10|Temp/Hum/DHT22|load   |... |    |
-.  	    |   |11|Temp/Hum/DHT22|web    |... |    |
-.  	    |   |12|Temp/Hum/DHT22|stack  |... |    |
+.  	    |   |10|System Info   |load   |... |    |
+.  	    |   |11|System Info   |web    |... |    |
+.  	    |   |12|System Info   |stack  |... |    |
 |||||||
