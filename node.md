@@ -22,10 +22,18 @@ SO-2rel|106|1|Switch input  |Sw1     |    |0   |6
 |||||||
 |||||||
 SO-SL  |107|1|Switch input  |Sw1     |591 |0   |7
--- 	   |   |3|System Info   |up      |592 |	   |
--- 	   |   |4|System Info   |ram     |999 |	   |
+.  	   |   |3|System Info   |up      |592 |	   |
+.  	   |   |4|System Info   |ram     |999 |	   |
 |||||||
 SO-4MB |108|1|Switch input  |Sw1     |809 |0   |8
--- 	   |   |3|System Info   |up      |747 |	   |
--- 	   |   |4|System Info   |ram     |999 |	   |
+.  	   |   |3|System Info   |up      |747 |	   |
+.  	   |   |4|System Info   |ram     |999 |	   |
+|||||||
+SO-4MB |111|1|PMExt-Port100 |lamel   |572 |I2C |11
+sda-IO3|   |2|PMExt-Port101 |lamel=  |425 |I2C |
+scl-IO1|   |5|Analog input  |lux     |537 |ADC |
+.  		 |   |6|System Info 	|load 	 |571 |
+.  	   |   |7|System Info   |up      |480 |	   |
+.  	   |   |8|System Info   |ram     |750 |	   |
+.  	   |   |9|Temp/Hum/DHT22|THbox   |583 |5   |
 |||||||
