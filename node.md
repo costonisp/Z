@@ -34,19 +34,20 @@ bld:147 |   |2 |PMExt-Port101 |lamel= |425 |I2C |5C:CF:7F:16:DC:70
 sda-IO3 |   |5 |Analog input  |lux    |537 |ADC |
 scl-IO1 |   |6 |System Info   |load   |571 |    |
 .       |   |7 |System Info   |up     |480 |	|
-.  	|   |8 |System Info   |ram    |750 |	|
-.  	|   |9 |Temp/Hum/DHT22|THbox  |583 |5   |
+.  	    |   |8 |System Info   |ram    |750 |	|
+.  	    |   |9 |Temp/Hum/DHT22|THbox  |583 |5   |
 |||||||
 ESP-LS  |112|1 |PMExt-Port100 |lamel  |667 |I2C |CC:50:E3:4B:CC:8A
 bld:148 |   |2 |PMExt-Port101 |lamel= |749 |I2C |CC:50:E3:4B:CC:8A
 sda-IO5 |   |3 |System Info   |up     |... |    |
 scl-IO4 |   |4 |System Info   |ram    |... |    |
 .       |   |5 |System Info   |load   |... |    |
-.       |   |6 |System Info   |rrsi   |... |	|
+.       |   |6 |System Info   |rrsi   |... |	  |
 |||||||
 ESP-MCUl|113|1 |System Info   |up     |811 |    |5C:CF:7F:13:8C:E4
-bld:mega|   |  |              |       |    |	|5C:CF:7F:13:8C:E4
+bld:mega|   |  |              |       |    |	  |5C:CF:7F:13:8C:E4
 20191123|
+.|
 ||||||| 
 ESP-test|114|1 |System Info   |up     |810 |    |5C:CF:7F:19:68:B7
 sda-IO13|   |2 |Light-BH1750  |bh1750 |789 |I2C |5C:CF:7F:19:68:B7
