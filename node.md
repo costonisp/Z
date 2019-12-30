@@ -1,87 +1,87 @@
-Name    |IP |Task| Device |Name    |IDX |GPIO|sda-scl| Mac Number      |Build
---------|---|----|--------|--------|----|----|-------|-----------------|----
-ESP-GW  |102|1 |DS18b20   |DS18 	|800 |14  |IO 4-5 |5C:CF:7F:41:32:AD|148
-.       |   |4 |Dummy     |Fan  	|... |    |
-.       |   |5 |SysInfo   |up     |801 |
-.       |   |6 |SysInfo   |ram  	|802 |
-.  	    |   |7 |SysInfo   |load   |803 |	  |
+Name    |IP |Task|Device|Name    |IDX |GPIO|sda-scl| Mac Number      |Build
+--------|---|----|------|--------|----|----|-------|-----------------|----
+ESP-GW  |102|1 |DS18b20 |DS18 	|800 |14  |IO 4-5 |5C:CF:7F:41:32:AD|148
+.       |   |4 |Dummy   |Fan  	|... |    |
+.       |   |5 |SysInfo |up     |801 |
+.       |   |6 |SysInfo |ram  	|802 |
+.  	    |   |7 |SysInfo |load   |803 |	  |
 |||||||
-SO-RF   |103|1 |Switch    |Sw1  	|431 |0   |       |5C:CF:7F:0C:D7:CA|145
-.       |   |3 |SysInfo   |ram  	|... |    |
-.  	    |   |4 |SysInfo   |up     |436 |	  |
+SO-RF   |103|1 |Switch  |Sw1  	|431 |0   |       |5C:CF:7F:0C:D7:CA|145
+.       |   |3 |SysInfo |ram  	|... |    |
+.  	    |   |4 |SysInfo |up     |436 |	  |
 |||||||
-SO-FD   |104|1 |Switch    |Sw1    |421 |0   |       |5C:CF:7F:81:47:8B|145
-.       |   |3 |SysInfo   |up     |786 |    |
-.  		  |   |4 |SysInfo   |ram  	|... |
+SO-FD   |104|1 |Switch  |Sw1    |421 |0   |       |5C:CF:7F:81:47:8B|145
+.       |   |3 |SysInfo |up     |786 |    |
+.  		  |   |4 |SysInfo |ram  	|... |
 |||||||
-SO-BL   |105|1 |Switch    |Sw1    |397 |0   |       |5C:CF:7F:81:4B:C4|145
-.       |   |3 |SysInfo   |up     |486 |    |
-.  		  |   |4 |SysInfo   |ram  	|... |	
+SO-BL   |105|1 |Switch  |Sw1    |397 |0   |       |5C:CF:7F:81:4B:C4|145
+.       |   |3 |SysInfo |up     |486 |    |
+.  		  |   |4 |SysInfo |ram  	|... |	
 |||||||
-ESP-2rel|106|1 |Switch    |Sw1    |    |0   |       |60:01:94:0E:60:61|xxx
-.  		  |   |  |SysInfo   |     	|    |	  |
+ESP-2rel|106|1 |Switch  |Sw1    |    |0   |       |60:01:94:0E:60:61|xxx
+.  		  |   |  |SysInfo |     	|    |	  |
 |||||||
-SO-SL   |107|1 |Switch    |Sw1    |591 |0   |       |5C:CF:7F:0C:B1:C0|145
-.       |   |3 |SysInfo   |up     |592 |	  |
-.  	    |   |4 |SysInfo   |ram    |... |	  |
+SO-SL   |107|1 |Switch  |Sw1    |591 |0   |       |5C:CF:7F:0C:B1:C0|145
+.       |   |3 |SysInfo |up     |592 |	  |
+.  	    |   |4 |SysInfo |ram    |... |	  |
 |||||||
-SO-4MB  |108|1 |Switch    |Sw1    |809 |0   |       |5C:CF:7F:0C:B4:4C|148
-.  	    |   |3 |SysInfo   |up     |747 |	  |
-.  	    |   |4 |SysInfo   |ram    |... |	  |
+SO-4MB  |108|1 |Switch  |Sw1    |809 |0   |       |5C:CF:7F:0C:B4:4C|148
+.  	    |   |3 |SysInfo |up     |747 |	  |
+.  	    |   |4 |SysInfo |ram    |... |	  |
 |||||||
-ESP-H801|111|1 |PME-Prt100|lamel  |572 |I2C |IO 3-1 |5C:CF:7F:16:DC:70|147
-.       |   |2 |PME-Prt101|lamel= |425 |I2C |
-.       |   |5 |AnalogIn  |lux    |537 |ADC |
-.       |   |6 |SysInfo   |load   |571 |    |
-.       |   |7 |SysInfo   |up     |480 |	  |
-.  	    |   |8 |SysInfo   |ram    |750 |	  |
-.  	    |   |9 |T/H DHT22 |THbox  |583 |5   |
+ESP-H801|111|1 |PME-100 |lamel  |572 |I2C |IO 3-1 |5C:CF:7F:16:DC:70|147
+.       |   |2 |PME-101 |lamel= |425 |I2C |
+.       |   |5 |AnalogIn|lux    |537 |ADC |
+.       |   |6 |SysInfo |load   |571 |    |
+.       |   |7 |SysInfo |up     |480 |	  |
+.  	    |   |8 |SysInfo |ram    |750 |	  |
+.  	    |   |9 |DHT22   |THbox  |583 |5   |
 |||||||
-ESP-LS  |112|1 |PME-Prt100|lamel  |667 |I2C |IO 5-4 |CC:50:E3:4B:CC:8A|148
-.       |   |2 |PME-Prt101|lamel= |749 |I2C |
-.       |   |3 |SysInfo   |up     |... |    |
-.       |   |4 |SysInfo   |ram    |... |    |
-.       |   |5 |SysInfo   |load   |... |    |
-.       |   |6 |SysInfo   |rrsi   |... |	  |
+ESP-LS  |112|1 |PME-100 |lamel  |667 |I2C |IO 5-4 |CC:50:E3:4B:CC:8A|148
+.       |   |2 |PME-101 |lamel= |749 |I2C |
+.       |   |3 |SysInfo |up     |... |    |
+.       |   |4 |SysInfo |ram    |... |    |
+.       |   |5 |SysInfo |load   |... |    |
+.       |   |6 |SysInfo |rrsi   |... |	  |
 |||||||
-ESP-MCUl|113|1 |SysInfo   |up     |811 |    |       |5C:CF:7F:13:8C:E4|mega 20191123
+ESP-MCUl|113|1 |SysInfo |up     |811 |    |       |5C:CF:7F:13:8C:E4|mega 20191123
 .       |   |  |          |       |    |	  |
 .       |
 .       |
 |||||||
-ESP-test|114|1 |SysInfo   |up     |810 |    |IO13-12|5C:CF:7F:19:68:B7|mega 20191208
-.       |   |2 |Lux-BH1750|bh1750 |789 |I2C |
-.       |   |3 |T/H SI7021|si7021 |760 |I2C |
-.  	    |   |4 |AnalogIn  |temp   |798 |ADC |
-.       |   |8 |SysInfo   |ram    |480 |
-.       |   |9 |SysInfo   |rrsi   |750 |
-.  	    |   |10|SysInfo   |load   |... |
-.  	    |   |11|SysInfo   |web    |... |
-.  	    |   |12|SysInfo   |stack  |... |
+ESP-test|114|1 |SysInfo |up     |810 |    |IO13-12|5C:CF:7F:19:68:B7|mega 20191208
+.       |   |2 |BH1750  |bh1750 |789 |I2C |
+.       |   |3 |SI7021  |si7021 |760 |I2C |
+.  	    |   |4 |AnalogIn|temp   |798 |ADC |
+.       |   |8 |SysInfo |ram    |480 |
+.       |   |9 |SysInfo |rrsi   |750 |
+.  	    |   |10|SysInfo |load   |... |
+.  	    |   |11|SysInfo |web    |... |
+.  	    |   |12|SysInfo |stack  |... |
 |||||||
-ESP-neo1|115|1 |          |       |    |    |       |A4:CF:12:C9:A0:BD|148
-.       |   |  |        	|     	|    |	  |
-.       |   |  |        	|     	|    |	  |
+ESP-neo1|115|1 |        |       |    |    |       |A4:CF:12:C9:A0:BD|148
+.       |   |  |        |     	|    |	  |
+.       |   |  |        |     	|    |	  |
 |||||||
-ESP-neo2|116|1 |          |       |    |    |       |CC:50:E3:7C:EB:93|148
-.       |   |  |        	|     	|    |	  |
-.       |   |  |        	|     	|    |	  |
+ESP-neo2|116|1 |        |       |    |    |       |CC:50:E3:7C:EB:93|148
+.       |   |  |        |     	|    |	  |
+.       |   |  |        |     	|    |	  |
 |||||||
-SO-POW1 |121|  |Switch    |Sw     |810 |    |       |5C:CF:7F:92:CC:05|Espurna 1.13.3
-.       |   |  |Current   |Ampere |789 |I2C |
-.       |   |  |Voltage   |Volt   |760 |I2C |
-.       |   |  |Act Power	|Watt   |798 |ADC |
-.       |   |  |Reac Power|Watt   |480 |	  |
-.       |   |  |App Power |Watt   |750 |	  |
-.  	    |   |  |Pwr factor|cos-phi|... |    |
-.  	    |   |  |Energy    |kWh    |... |    |
+SO-POW1 |121|  |Switch  |Sw     |810 |    |       |5C:CF:7F:92:CC:05|Espurna 1.13.3
+.       |   |  |Current |Ampere |789 |I2C |
+.       |   |  |Voltage |Volt   |760 |I2C |
+.       |   |  |Act Pwr	|Watt   |798 |ADC |
+.       |   |  |Reac Pwr|Watt   |480 |	  |
+.       |   |  |App Pwr |Watt   |750 |	  |
+.  	    |   |  |Pwr fact|cos-phi|... |    |
+.  	    |   |  |Energy  |kWh    |... |    |
 |||||||
-SO-POW2 |122|  |Switch    |Sw     |731 |    |       |5C:CF:7F:92:DC:B7|Espurna 1.13.3
-.       |   |  |Current   |Ampere |741 |I2C |
-.       |   |  |Voltage   |Volt   |739 |I2C |
-.       |   |  |Act Power	|Watt   |733 |ADC |
-.       |   |  |Reac Power|Watt   |735 |	  |
-.       |   |  |App Power |Watt   |737 |	  |
-.  	    |   |  |Pwr factor|cos-phi|743 |    |
-.  	    |   |  |Energy    |kWh    |745 |    |
+SO-POW2 |122|  |Switch  |Sw     |731 |    |       |5C:CF:7F:92:DC:B7|Espurna 1.13.3
+.       |   |  |Current |Ampere |741 |I2C |
+.       |   |  |Voltage |Volt   |739 |I2C |
+.       |   |  |Act Pwr	|Watt   |733 |ADC |
+.       |   |  |Reac Pwr|Watt   |735 |	  |
+.       |   |  |App Pwr |Watt   |737 |	  |
+.  	    |   |  |Pwr fact|cos-phi|743 |    |
+.  	    |   |  |Energy  |kWh    |745 |    |
 |||||||
