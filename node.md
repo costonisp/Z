@@ -44,12 +44,12 @@ ESPlamel|112|1 |PME-100 |lamel  |667 |I2C |IO 5-4 |     |CC:50:E3:4B:CC:8A|148
 .       |   |5 |SysInfo |load   |... |    |
 .       |   |6 |SysInfo |rrsi   |... |	  |
 |||||||
-ESPmcu1 |113|1 |SysInfo |up     |811 |    |       |     |5C:CF:7F:13:8C:E4|mega20191123
+ESPmcu1 |113|1 |SysInfo |up     |811 |    |       |8266 |5C:CF:7F:13:8C:E4|mega20191123
 .       |   |  |        |       |    |	  |
 .       |
 .       |
 |||||||
-ESPtest |114|1 |SysInfo |up     |810 |    |IO13-12|     |5C:CF:7F:19:68:B7|mega20191208
+ESPtest |114|1 |SysInfo |up     |810 |    |IO13-12|8266 |5C:CF:7F:19:68:B7|mega20191208
 .       |   |2 |BH1750  |bh1750 |789 |I2C |
 .       |   |3 |SI7021  |si7021 |760 |I2C |
 .  	    |   |4 |AnalogIn|temp   |798 |ADC |
