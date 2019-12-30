@@ -1,6 +1,6 @@
 Name    |IP |Task|  Device   |Name    |IDX |GPIO|SDA |SCL | Mac Number      |Build
 --------|---|----|-----------|--------|----|----|----|----|-----------------|----
-ESP-GW  |102|1 |Temp-DS18b20  |DS18 	|800 |14  |IO4 |IO5 |5C:CF:7F:41:32:AD|148
+ESP-GW  |102|1 |Temp-DS18b20  |DS18 	|800 |14  |IO 4|IO 5|5C:CF:7F:41:32:AD|148
 .       |   |4 |Dummy Device  |Fan  	|... |    |
 .       |   |5 |System Info   |up     |801 |
 .       |   |6 |System Info 	|ram  	|802 |
@@ -29,7 +29,7 @@ SO-4MB  |108|1 |Switch input  |Sw1    |809 |0   |    |    |5C:CF:7F:0C:B4:4C|148
 .  	    |   |3 |System Info   |up     |747 |	  |
 .  	    |   |4 |System Info   |ram    |... |	  |
 |||||||
-ESP-H801|111|1 |PMExt-Port100 |lamel  |572 |I2C |IO3 |IO1 |5C:CF:7F:16:DC:70|147
+ESP-H801|111|1 |PMExt-Port100 |lamel  |572 |I2C |IO 3|IO 1|5C:CF:7F:16:DC:70|147
 .       |   |2 |PMExt-Port101 |lamel= |425 |I2C |
 .       |   |5 |Analog input  |lux    |537 |ADC |
 .       |   |6 |System Info   |load   |571 |    |
@@ -37,7 +37,7 @@ ESP-H801|111|1 |PMExt-Port100 |lamel  |572 |I2C |IO3 |IO1 |5C:CF:7F:16:DC:70|147
 .  	    |   |8 |System Info   |ram    |750 |	  |
 .  	    |   |9 |Temp/Hum/DHT22|THbox  |583 |5   |
 |||||||
-ESP-LS  |112|1 |PMExt-Port100 |lamel  |667 |I2C |IO5 |IO4 |CC:50:E3:4B:CC:8A|148
+ESP-LS  |112|1 |PMExt-Port100 |lamel  |667 |I2C |IO 5|IO 4|CC:50:E3:4B:CC:8A|148
 .       |   |2 |PMExt-Port101 |lamel= |749 |I2C |
 .       |   |3 |System Info   |up     |... |    |
 .       |   |4 |System Info   |ram    |... |    |
