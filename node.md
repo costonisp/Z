@@ -21,7 +21,6 @@ bld:145 |   |3 |System Info   |up     |486 |    |5e:cf:7f:81:4b:c4
 ESP-2rel|106|1 |Switch input  |Sw1    |    |0   |60:01:94:0E:60:61
 .  		  |   |  |System Info 	|     	|    |	  |60:01:94:0E:60:61
 |||||||
-|||||||
 SO-SL   |107|1 |Switch input  |Sw1    |591 |0   |5C:CF:7F:0C:B1:C0
 bld:145 |   |3 |System Info   |up     |592 |	  |5e:cf:7f:0c:b1:c0
 .  	    |   |4 |System Info   |ram    |... |	  |
@@ -42,12 +41,13 @@ ESP-LS  |112|1 |PMExt-Port100 |lamel  |667 |I2C |CC:50:E3:4B:CC:8A
 bld:148 |   |2 |PMExt-Port101 |lamel= |749 |I2C |CC:50:E3:4B:CC:8A
 sda-IO5 |   |3 |System Info   |up     |... |    |
 scl-IO4 |   |4 |System Info   |ram    |... |    |
-.       |   |5 |System Info   |load   |... |	|
-.       |   |6 |System Info   |rrsi   |... |	|
+.       |   |5 |System Info   |load   |... |    |
+.       |   |6 |System Info   |rrsi   |... |	  |
 |||||||
 ESP-MCUl|113|1 |System Info   |up     |811 |    |5C:CF:7F:13:8C:E4
 bld:mega|   |                 |       |    |	  |5C:CF:7F:13:8C:E4
 20191123|   |                 |       |    |	  |
+        |   |                 |       |    |	  |
 ||||||| 
 ESP-test|114|1 |System Info   |up     |810 |    |5C:CF:7F:19:68:B7
 sda-IO13|   |2 |Light-BH1750  |bh1750 |789 |I2C |5C:CF:7F:19:68:B7
@@ -60,10 +60,12 @@ bld:mega|   |8 |System Info   |ram    |480 |	  |
 .  	    |   |12|System Info   |stack  |... |    |
 |||||||
 ESP-neo1|115|1 |              |       |    |    |A4:CF:12:C9:A0:BD
-bld:148 |   |  |            	|     	|    |	  |a4:cf:12:c9:a0:bd:
+bld:148 |   |  |            	|     	|    |	  |a4:cf:12:c9:a0:bd
+.       |   |  |            	|     	|    |	  |
 |||||||
 ESP-neo2|116|1 |              |       |    |    |CC:50:E3:7C:EB:93
 bld:148 |   |  |            	|     	|    |	  |ce:50:e3:7c:eb:93
+.       |   |  |            	|     	|    |	  |
 |||||||
 SO-POW1 |121|  |Switch        |Sw     |810 |    |5C:CF:7F:92:CC:05
 .       |   |  |Current       |Ampere |789 |I2C |5C:CF:7F:92:CC:05
