@@ -1,17 +1,17 @@
 Name    |IP |Task|  Device   |Name    |IDX |GPIO|	Mac Number
 --------|---|----|-----------|--------|----|----|------
 ESP-GW  |102|1 |Temp-DS18b20  |DS18 	|800 |14  |5C:CF:7F:41:32:AD
-sda-IO4 |   |4 |Dummy Device  |Fan  	|... |    |5C:CF:7F:41:32:AD
-scl-IO5 |   |5 |System Info   |up     |801 |
-bld:148 |   |6 |System Info 	|ram  	|802 |
+bld:148 |   |4 |Dummy Device  |Fan  	|... |    |5C:CF:7F:41:32:AD
+sda-IO4 |   |5 |System Info   |up     |801 |
+scl:IO5 |   |6 |System Info 	|ram  	|802 |
 .  	    |   |7 |System Info   |load   |803 |	  |
 |||||||
 SO-RF   |103|1 |Switch input  |Sw1  	|431 |0   |5C:CF:7F:0C:D7:CA
-.  		  |   |3 |System Info 	|ram  	|... |    |5C:CF:7F:0C:D7:CA
+bld:145 |   |3 |System Info 	|ram  	|... |    |5C:CF:7F:0C:D7:CA
 .  	    |   |4 |System Info   |up     |436 |	  |
 |||||||
 SO-FD   |104|1 |Switch input  |Sw1    |421 |0   |5C:CF:7F:81:47:8B
-.       |   |3 |System Info   |up     |786 |    |5C:CF:7F:81:47:8B
+bld:145 |   |3 |System Info   |up     |786 |    |5C:CF:7F:81:47:8B
 .  		  |   |4 |System Info 	|ram  	|... |
 |||||||
 SO-BL   |105|1 |Switch input  |Sw1    |397 |0   |5C:CF:7F:81:4B:C4
@@ -31,23 +31,24 @@ SO-4MB  |108|1 |Switch input  |Sw1    |809 |0   |5C:CF:7F:0C:B4:4C
 .  	    |   |4 |System Info   |ram    |... |	  |
 |||||||
 ESP-H801|111|1 |PMExt-Port100 |lamel  |572 |I2C |5C:CF:7F:16:DC:70
-sda-IO3 |   |2 |PMExt-Port101 |lamel= |425 |I2C |5C:CF:7F:16:DC:70
-scl-IO1 |   |5 |Analog input  |lux    |537 |ADC |
-.  		  |   |6 |System Info   |load 	|571 |
-bld:147 |   |7 |System Info   |up     |480 |	  |
+bld:147 |   |2 |PMExt-Port101 |lamel= |425 |I2C |5C:CF:7F:16:DC:70
+sda-IO3 |   |5 |Analog input  |lux    |537 |ADC |
+scl-IO1 |   |6 |System Info   |load 	|571 |
+.       |   |7 |System Info   |up     |480 |	  |
 .  	    |   |8 |System Info   |ram    |750 |	  |
 .  	    |   |9 |Temp/Hum/DHT22|THbox  |583 |5   |
 |||||||
 ESP-LS  |112|1 |PMExt-Port100 |lamel  |667 |I2C |CC:50:E3:4B:CC:8A
-sda-IO5 |   |2 |PMExt-Port101 |lamel= |749 |I2C |CC:50:E3:4B:CC:8A
-scl-IO4 |   |3 |System Info   |up     |... |    |
-.  		  |   |4 |System Info 	|ram  	|... |    |
-bld:148 |   |5 |System Info   |load   |... |	  |
+bld:148 |   |2 |PMExt-Port101 |lamel= |749 |I2C |CC:50:E3:4B:CC:8A
+sda-IO5 |   |3 |System Info   |up     |... |    |
+scl-IO4 |   |4 |System Info 	|ram  	|... |    |
+        |   |5 |System Info   |load   |... |	  |
 .  	    |   |6 |System Info   |rrsi   |... |	  |
 |||||||
 ESP-MCUl|113|1 |System Info   |up     |811 |    |5C:CF:7F:13:8C:E4
-.  		  |   |  |            	|     	|    |	  |5C:CF:7F:13:8C:E4
-|||||||
+bld:mega|   |               	|     	|    |	  |5C:CF:7F:13:8C:E4
+20191123|   |                 |      	|    |	  |
+||||||| 
 ESP-test|114|1 |System Info   |up     |810 |    |5C:CF:7F:19:68:B7
 sda-IO13|   |2 |Light-BH1750  |bh1750 |789 |I2C |5C:CF:7F:19:68:B7
 scl-IO12|   |3 |TempHum SI7021|si7021 |760 |I2C |
