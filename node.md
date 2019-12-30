@@ -1,10 +1,10 @@
 Name    |IP |Task|  Device   |Name    |IDX |GPIO|sda-scl| Mac Number      |Build
 --------|---|----|-----------|--------|----|----|-------|-----------------|----
-ESP-GW  |102|1 |Temp-DS18b20  |DS18 	|800 |14  |IO 4-5 |5C:CF:7F:41:32:AD|148
-.       |   |4 |Dummy Device  |Fan  	|... |    |
-.       |   |5 |System Info   |up     |801 |
-.       |   |6 |System Info 	|ram  	|802 |
-.  	    |   |7 |System Info   |load   |803 |	  |
+ESP-GW  |102|1 |DS18b20  |DS18 	|800 |14  |IO 4-5 |5C:CF:7F:41:32:AD|148
+.       |   |4 |Dummy    |Fan  	|... |    |
+.       |   |5 |SysInfo  |up     |801 |
+.       |   |6 |SysInfo  |ram  	|802 |
+.  	    |   |7 |SysInfo  |load   |803 |	  |
 |||||||
 SO-RF   |103|1 |Switch input  |Sw1  	|431 |0   |       |5C:CF:7F:0C:D7:CA|145
 .       |   |3 |System Info 	|ram  	|... |    |
