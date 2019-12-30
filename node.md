@@ -45,7 +45,7 @@ scl-IO4 |   |4 |System Info   |ram    |... |    |
 .       |   |6 |System Info   |rrsi   |... |	|
 |||||||
 ESP-MCUl|113|1 |System Info   |up     |811 |    |5C:CF:7F:13:8C:E4
-bld:mega|   |                 |       |    |	|5C:CF:7F:13:8C:E4
+bld:mega|   |  |              |       |    |	|5C:CF:7F:13:8C:E4
 20191123|
         |
 ||||||| 
