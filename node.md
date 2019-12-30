@@ -44,12 +44,12 @@ ESP-LS  |112|1 |PME-100 |lamel  |667 |I2C |IO 5-4 |CC:50:E3:4B:CC:8A|148
 .       |   |5 |SysInfo |load   |... |    |
 .       |   |6 |SysInfo |rrsi   |... |	  |
 |||||||
-ESPmcu1 |113|1 |SysInfo |up     |811 |    |       |5C:CF:7F:13:8C:E4|mega 20191123
+ESPmcu1 |113|1 |SysInfo |up     |811 |    |       |5C:CF:7F:13:8C:E4|mega20191123
 .       |   |  |          |       |    |	  |
 .       |
 .       |
 |||||||
-ESPtest |114|1 |SysInfo |up     |810 |    |IO13-12|5C:CF:7F:19:68:B7|mega 20191208
+ESPtest |114|1 |SysInfo |up     |810 |    |IO13-12|5C:CF:7F:19:68:B7|mega20191208
 .       |   |2 |BH1750  |bh1750 |789 |I2C |
 .       |   |3 |SI7021  |si7021 |760 |I2C |
 .  	    |   |4 |AnalogIn|temp   |798 |ADC |
@@ -67,7 +67,7 @@ ESPneo2 |116|1 |        |       |    |    |       |CC:50:E3:7C:EB:93|148
 .       |   |  |        |     	|    |	  |
 .       |   |  |        |     	|    |	  |
 |||||||
-SO-pow1 |121|  |Switch  |Sw     |810 |    |       |5C:CF:7F:92:CC:05|Espurna 1.13.3
+SO-pow1 |121|  |Switch  |Sw     |810 |    |       |5C:CF:7F:92:CC:05|Espurna1.13.3
 .       |   |  |Current |Ampere |789 |I2C |
 .       |   |  |Voltage |Volt   |760 |I2C |
 .       |   |  |Act Pwr	|Watt   |798 |ADC |
@@ -76,7 +76,7 @@ SO-pow1 |121|  |Switch  |Sw     |810 |    |       |5C:CF:7F:92:CC:05|Espurna 1.1
 .  	    |   |  |Pwr fact|cos-phi|... |    |
 .  	    |   |  |Energy  |kWh    |... |    |
 |||||||
-SO-pow2 |122|  |Switch  |Sw     |731 |    |       |5C:CF:7F:92:DC:B7|Espurna 1.13.3
+SO-pow2 |122|  |Switch  |Sw     |731 |    |       |5C:CF:7F:92:DC:B7|Espurna1.13.3
 .       |   |  |Current |Ampere |741 |I2C |
 .       |   |  |Voltage |Volt   |739 |I2C |
 .       |   |  |Act Pwr	|Watt   |733 |ADC |
