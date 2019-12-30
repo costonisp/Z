@@ -71,7 +71,7 @@ SO-POW1 |121|  |Switch  |Sw     |810 |    |       |5C:CF:7F:92:CC:05|Espurna 1.1
 .       |   |  |Current |Ampere |789 |I2C |
 .       |   |  |Voltage |Volt   |760 |I2C |
 .       |   |  |Act Pwr	|Watt   |798 |ADC |
-.       |   |  |Reac Pwr|Watt   |480 |	  |
+.       |   |  |ReacPwr |Watt   |480 |	  |
 .       |   |  |App Pwr |Watt   |750 |	  |
 .  	    |   |  |Pwr fact|cos-phi|... |    |
 .  	    |   |  |Energy  |kWh    |... |    |
@@ -80,7 +80,7 @@ SO-POW2 |122|  |Switch  |Sw     |731 |    |       |5C:CF:7F:92:DC:B7|Espurna 1.1
 .       |   |  |Current |Ampere |741 |I2C |
 .       |   |  |Voltage |Volt   |739 |I2C |
 .       |   |  |Act Pwr	|Watt   |733 |ADC |
-.       |   |  |Reac Pwr|Watt   |735 |	  |
+.       |   |  |ReacPwr |Watt   |735 |	  |
 .       |   |  |App Pwr |Watt   |737 |	  |
 .  	    |   |  |Pwr fact|cos-phi|743 |    |
 .  	    |   |  |Energy  |kWh    |745 |    |
