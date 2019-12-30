@@ -37,7 +37,7 @@ ESPh801 |111|1 |PME-100 |lamel  |572 |I2C |IO 3-1 |     |5C:CF:7F:16:DC:70|147
 .  	    |   |8 |SysInfo |ram    |750 |	  |
 .  	    |   |9 |DHT22   |THbox  |583 |5   |
 |||||||
-ESP-LS  |112|1 |PME-100 |lamel  |667 |I2C |IO 5-4 |     |CC:50:E3:4B:CC:8A|148
+ESPlamel|112|1 |PME-100 |lamel  |667 |I2C |IO 5-4 |     |CC:50:E3:4B:CC:8A|148
 .       |   |2 |PME-101 |lamel= |749 |I2C |
 .       |   |3 |SysInfo |up     |... |    |
 .       |   |4 |SysInfo |ram    |... |    |
