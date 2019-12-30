@@ -42,22 +42,22 @@ bld:148 |   |2 |PMExt-Port101 |lamel= |749 |I2C |CC:50:E3:4B:CC:8A
 sda-IO5 |   |3 |System Info   |up     |... |    |
 scl-IO4 |   |4 |System Info   |ram    |... |    |
 .       |   |5 |System Info   |load   |... |    |
-.       |   |6 |System Info   |rrsi   |... |	  |
+.       |   |6 |System Info   |rrsi   |... |	|
 |||||||
 ESP-MCUl|113|1 |System Info   |up     |811 |    |5C:CF:7F:13:8C:E4
-bld:mega|   |                 |       |    |	  |5C:CF:7F:13:8C:E4
-20191123|   |                 |       |    |	  |
-        |   |                 |       |    |	  |
+bld:mega|   |                 |       |    |	|5C:CF:7F:13:8C:E4
+20191123|   |                 |       |    |	|
+        |   |                 |       |    |	|
 ||||||| 
 ESP-test|114|1 |System Info   |up     |810 |    |5C:CF:7F:19:68:B7
 sda-IO13|   |2 |Light-BH1750  |bh1750 |789 |I2C |5C:CF:7F:19:68:B7
 scl-IO12|   |3 |TempHum SI7021|si7021 |760 |I2C |
-.  		  |   |4 |Analog input	|temp   |798 |ADC |
-bld:mega|   |8 |System Info   |ram    |480 |	  |
-20191208|   |9 |System Info   |rrsi   |750 |	  |
-.  	    |   |10|System Info   |load   |... |    |
-.  	    |   |11|System Info   |web    |... |    |
-.  	    |   |12|System Info   |stack  |... |    |
+.  	|   |4 |Analog input  |temp   |798 |ADC |
+bld:mega|   |8 |System Info   |ram    |480 |	|
+20191208|   |9 |System Info   |rrsi   |750 |	|
+.  	    |10|System Info   |load   |... |    |
+.  	    |11|System Info   |web    |... |    |
+.  	    |12|System Info   |stack  |... |    |
 |||||||
 ESP-neo1|115|1 |              |       |    |    |A4:CF:12:C9:A0:BD
 bld:148 |   |  |            	|     	|    |	  |a4:cf:12:c9:a0:bd
