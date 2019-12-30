@@ -18,7 +18,7 @@ SO-BL   |105|1 |Switch  |Sw1    |397 |0   |       |5C:CF:7F:81:4B:C4|145
 .       |   |3 |SysInfo |up     |486 |    |
 .  		  |   |4 |SysInfo |ram  	|... |	
 |||||||
-ESP-2rel|106|1 |Switch  |Sw1    |    |0   |       |60:01:94:0E:60:61|xxx
+ESP2rel |106|1 |Switch  |Sw1    |    |0   |       |60:01:94:0E:60:61|xxx
 .  		  |   |  |SysInfo |     	|    |	  |
 |||||||
 SO-SL   |107|1 |Switch  |Sw1    |591 |0   |       |5C:CF:7F:0C:B1:C0|145
@@ -29,7 +29,7 @@ SO-4MB  |108|1 |Switch  |Sw1    |809 |0   |       |5C:CF:7F:0C:B4:4C|148
 .  	    |   |3 |SysInfo |up     |747 |	  |
 .  	    |   |4 |SysInfo |ram    |... |	  |
 |||||||
-ESP-H801|111|1 |PME-100 |lamel  |572 |I2C |IO 3-1 |5C:CF:7F:16:DC:70|147
+ESPh801 |111|1 |PME-100 |lamel  |572 |I2C |IO 3-1 |5C:CF:7F:16:DC:70|147
 .       |   |2 |PME-101 |lamel= |425 |I2C |
 .       |   |5 |AnalogIn|lux    |537 |ADC |
 .       |   |6 |SysInfo |load   |571 |    |
@@ -44,12 +44,12 @@ ESP-LS  |112|1 |PME-100 |lamel  |667 |I2C |IO 5-4 |CC:50:E3:4B:CC:8A|148
 .       |   |5 |SysInfo |load   |... |    |
 .       |   |6 |SysInfo |rrsi   |... |	  |
 |||||||
-ESP-MCUl|113|1 |SysInfo |up     |811 |    |       |5C:CF:7F:13:8C:E4|mega 20191123
+ESPmcu1 |113|1 |SysInfo |up     |811 |    |       |5C:CF:7F:13:8C:E4|mega 20191123
 .       |   |  |          |       |    |	  |
 .       |
 .       |
 |||||||
-ESP-test|114|1 |SysInfo |up     |810 |    |IO13-12|5C:CF:7F:19:68:B7|mega 20191208
+ESPtest |114|1 |SysInfo |up     |810 |    |IO13-12|5C:CF:7F:19:68:B7|mega 20191208
 .       |   |2 |BH1750  |bh1750 |789 |I2C |
 .       |   |3 |SI7021  |si7021 |760 |I2C |
 .  	    |   |4 |AnalogIn|temp   |798 |ADC |
@@ -59,15 +59,15 @@ ESP-test|114|1 |SysInfo |up     |810 |    |IO13-12|5C:CF:7F:19:68:B7|mega 201912
 .  	    |   |11|SysInfo |web    |... |
 .  	    |   |12|SysInfo |stack  |... |
 |||||||
-ESP-neo1|115|1 |        |       |    |    |       |A4:CF:12:C9:A0:BD|148
+ESPneo1 |115|1 |        |       |    |    |       |A4:CF:12:C9:A0:BD|148
 .       |   |  |        |     	|    |	  |
 .       |   |  |        |     	|    |	  |
 |||||||
-ESP-neo2|116|1 |        |       |    |    |       |CC:50:E3:7C:EB:93|148
+ESPneo2 |116|1 |        |       |    |    |       |CC:50:E3:7C:EB:93|148
 .       |   |  |        |     	|    |	  |
 .       |   |  |        |     	|    |	  |
 |||||||
-SO-POW1 |121|  |Switch  |Sw     |810 |    |       |5C:CF:7F:92:CC:05|Espurna 1.13.3
+SO-pow1 |121|  |Switch  |Sw     |810 |    |       |5C:CF:7F:92:CC:05|Espurna 1.13.3
 .       |   |  |Current |Ampere |789 |I2C |
 .       |   |  |Voltage |Volt   |760 |I2C |
 .       |   |  |Act Pwr	|Watt   |798 |ADC |
@@ -76,7 +76,7 @@ SO-POW1 |121|  |Switch  |Sw     |810 |    |       |5C:CF:7F:92:CC:05|Espurna 1.1
 .  	    |   |  |Pwr fact|cos-phi|... |    |
 .  	    |   |  |Energy  |kWh    |... |    |
 |||||||
-SO-POW2 |122|  |Switch  |Sw     |731 |    |       |5C:CF:7F:92:DC:B7|Espurna 1.13.3
+SO-pow2 |122|  |Switch  |Sw     |731 |    |       |5C:CF:7F:92:DC:B7|Espurna 1.13.3
 .       |   |  |Current |Ampere |741 |I2C |
 .       |   |  |Voltage |Volt   |739 |I2C |
 .       |   |  |Act Pwr	|Watt   |733 |ADC |
