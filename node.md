@@ -32,10 +32,10 @@ SO-4MB  |108|1 |Switch input  |Sw1    |809 |0   |5C:CF:7F:0C:B4:4C
 ESP-H801|111|1 |PMExt-Port100 |lamel  |572 |I2C |5C:CF:7F:16:DC:70
 bld:147 |   |2 |PMExt-Port101 |lamel= |425 |I2C |5C:CF:7F:16:DC:70
 sda-IO3 |   |5 |Analog input  |lux    |537 |ADC |
-scl-IO1 |   |6 |System Info   |load 	|571 |
-.       |   |7 |System Info   |up     |480 |	  |
-.  	    |   |8 |System Info   |ram    |750 |	  |
-.  	    |   |9 |Temp/Hum/DHT22|THbox  |583 |5   |
+scl-IO1 |   |6 |System Info   |load   |571 |    |
+.       |   |7 |System Info   |up     |480 |	|
+.  	|   |8 |System Info   |ram    |750 |	|
+.  	|   |9 |Temp/Hum/DHT22|THbox  |583 |5   |
 |||||||
 ESP-LS  |112|1 |PMExt-Port100 |lamel  |667 |I2C |CC:50:E3:4B:CC:8A
 bld:148 |   |2 |PMExt-Port101 |lamel= |749 |I2C |CC:50:E3:4B:CC:8A
