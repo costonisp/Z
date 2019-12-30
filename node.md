@@ -1,5 +1,5 @@
-Name    |IP |Task|Device|Name    |IDX |GPIO|sda-scl| Mac Number      |Build
---------|---|----|------|--------|----|----|-------|-----------------|----
+Name    |IP |Task|Device|Name   |IDX |GPIO|sda-scl| Mac Number      |Build
+--------|---|----|------|-------|----|----|-------|-----------------|----
 ESP-GW  |102|1 |DS18b20 |DS18 	|800 |14  |IO 4-5 |5C:CF:7F:41:32:AD|148
 .       |   |4 |Dummy   |Fan  	|... |    |
 .       |   |5 |SysInfo |up     |801 |
