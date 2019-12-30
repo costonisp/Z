@@ -46,8 +46,8 @@ scl-IO4 |   |4 |System Info   |ram    |... |    |
 |||||||
 ESP-MCUl|113|1 |System Info   |up     |811 |    |5C:CF:7F:13:8C:E4
 bld:mega|   |                 |       |    |	|5C:CF:7F:13:8C:E4
-20191123|   |                 |       |    |	|
-        |   |                 |       |    |	|
+20191123|
+        |
 ||||||| 
 ESP-test|114|1 |System Info   |up     |810 |    |5C:CF:7F:19:68:B7
 sda-IO13|   |2 |Light-BH1750  |bh1750 |789 |I2C |5C:CF:7F:19:68:B7
