@@ -18,8 +18,8 @@ SO-BL   |105|1 |Switch  |Sw1    |397 |0   |       |65500|5C:CF:7F:81:4B:C4|145
 .       |   |3 |SysInfo |up     |486 |    |
 .  		  |   |4 |SysInfo |ram  	|... |	
 |||||||
-ESP2rel |106|1 |Output  |Relay1 |758 |D5  |IO 4-5 |65500|60:01:94:0E:60:61|xxx
-.  		  |   |2 |Output  |Relay2 |759 |D6  |
+ESP2rel |106|1 |Output  |Relay1 |758 |14  |IO 4-5 |65500|60:01:94:0E:60:61|xxx
+.  		  |   |2 |Output  |Relay2 |759 |12  |
 .       |   |3 |SI7021  |       |642 |    |
 .       |   |5 |SysInfo |up     |785 |	  |
 .       |   |6 |SysInfo |ram    |... |    |
