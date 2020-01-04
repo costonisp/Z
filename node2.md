@@ -1,7 +1,8 @@
-Name task|IP |Device|Name   |IDX |GPIO|sda-scl| UDP |.
+Name    |mac|Device|Name   |IDX |GPIO|sda-scl| UDP |.
 --------|---|------|-------|----|----|-------|-----|---
-ESP-GW  |mac|5C:CF:7F:41:32:AD|||||Build 148|
-1       |102|DS18b20 |DS18 	|800 |14  |IO 4-5 |65500|
+Task    |ip |      |       |IDX |GPIO|sda-scl| UDP |.
+ESP-GW  |102|5C:CF:7F:41:32:AD|||||Build 148|
+1       |   |DS18b20 |DS18 	|800 |14  |IO 4-5 |65500|
 4       |   |Dummy   |Fan  	|... |    |
 5       |   |SysInfo |up     |801 |
 6       |   |SysInfo |ram  	|802 |
