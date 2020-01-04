@@ -1,5 +1,5 @@
-Name    |IP |Task|Device|Name   |IDX |GPIO|sda-scl| UDP | Mac Number      |Build
---------|---|----|------|-------|----|----|-------|-----|-----------------|----
+Name    |IP |Task|Device|Name   |IDX |GPIO|sda-scl| UDP | Mac Number
+--------|---|----|------|-------|----|----|-------|-----|-----------
 ESP-GW  |MAC|  |5C:CF:7F:41:32:AD|||||Build 148|
 .       |102|1 |DS18b20 |DS18 	|800 |14  |IO 4-5 |65500|
 .       |   |4 |Dummy   |Fan  	|... |    |
@@ -7,27 +7,34 @@ ESP-GW  |MAC|  |5C:CF:7F:41:32:AD|||||Build 148|
 .       |   |6 |SysInfo |ram  	|802 |
 .  	    |   |7 |SysInfo |load   |803 |	  |
 |||||||
-SO-RF   |103|1 |Switch  |Sw1  	|431 |0   |       |65500|5C:CF:7F:0C:D7:CA|145
+SO-RF   |MAC|  |5C:CF:7F:0C:D7:CA|||||Build 145|
+SO-RF   |103|1 |Switch  |Sw1  	|431 |0   |       |65500|
 .  	    |   |4 |SysInfo |up     |436 |	  |
 |||||||
-SO-FD   |104|1 |Switch  |Sw1    |421 |0   |       |65500|5C:CF:7F:81:47:8B|145
+SO-FD   |MAC|  |5C:CF:7F:81:47:8B|145
+SO-FD   |104|1 |Switch  |Sw1    |421 |0   |       |65500|
 .       |   |3 |SysInfo |up     |786 |    |
 |||||||
-SO-BL   |105|1 |Switch  |Sw1    |397 |0   |       |65500|5C:CF:7F:81:4B:C4|145
+SO-BL   |MAC|  |5C:CF:7F:81:4B:C4|145
+SO-BL   |105|1 |Switch  |Sw1    |397 |0   |       |65500| 
 .       |   |3 |SysInfo |up     |486 |    |
 |||||||
-ESP2rel |106|1 |Output  |Relay1 |758 |14  |IO 4-5 |65500|60:01:94:0E:60:61|xxx
+ESP2rel |MAC|  |60:01:94:0E:60:61|xxx
+ESP2rel |106|1 |Output  |Relay1 |758 |14  |IO 4-5 |65500|
 .  		  |   |2 |Output  |Relay2 |759 |12  |
 .       |   |3 |SI7021  |       |642 |    |
 .       |   |5 |SysInfo |up     |785 |	  |
 |||||||
-SO-SL   |107|1 |Switch  |Sw1    |591 |0   |       |65500|5C:CF:7F:0C:B1:C0|145
+SO-SL   |MAC|  |5C:CF:7F:0C:B1:C0|145
+SO-SL   |107|1 |Switch  |Sw1    |591 |0   |       |65500|
 .       |   |3 |SysInfo |up     |592 |	  |
 |||||||
-SO-4MB  |108|1 |Switch  |Sw1    |809 |0   |       |8266 |5C:CF:7F:0C:B4:4C|148
+SO-4MB  |MAC|  |5C:CF:7F:0C:B4:4C|148
+SO-4MB  |108|1 |Switch  |Sw1    |809 |0   |       |8266 |
 .  	    |   |3 |SysInfo |up     |747 |	  |
 |||||||
-ESPh801 |111|1 |PME-100 |lamel  |572 |I2C |IO 3-1 |     |5C:CF:7F:16:DC:70|147
+ASPh801 |MAC|  |5C:CF:7F:16:DC:70|147
+ESPh801 |111|1 |PME-100 |lamel  |572 |I2C |IO 3-1 |     |
 .       |   |2 |PME-101 |lamel= |425 |I2C |
 .       |   |5 |AnalogIn|lux    |537 |ADC |
 .       |   |6 |SysInfo |load   |571 |    |
@@ -35,16 +42,19 @@ ESPh801 |111|1 |PME-100 |lamel  |572 |I2C |IO 3-1 |     |5C:CF:7F:16:DC:70|147
 .  	    |   |8 |SysInfo |ram    |750 |	  |
 .  	    |   |9 |DHT22   |THbox  |583 |5   |
 |||||||
-ESPlamel|112|1 |PME-100 |lamel  |667 |I2C |IO 5-4 |     |CC:50:E3:4B:CC:8A|148
+ESPlamel|MAC|  |CC:50:E3:4B:CC:8A|148
+ESPlamel|112|1 |PME-100 |lamel  |667 |I2C |IO 5-4 |     |
 .       |   |2 |PME-101 |lamel= |749 |I2C |
 .       |   |3 |SysInfo |up     |... |    |
 |||||||
-ESPmcu1 |113|1 |SysInfo |up     |811 |    |       |8266 |5C:CF:7F:13:8C:E4|mega20191123
+ESPmcu1 |mac|  |5C:CF:7F:13:8C:E4|mega20191123
+ESPmcu1 |113|1 |SysInfo |up     |811 |    |       |8266 |
 .       |   |  |        |       |    |	  |
 .       |
 .       |
 |||||||
-ESPtest |114|1 |SysInfo |up     |810 |    |IO13-12|8266 |5C:CF:7F:19:68:B7|mega20191208
+ASPtest |mac|  |5C:CF:7F:19:68:B7|mega20191208
+ESPtest |114|1 |SysInfo |up     |810 |    |IO13-12|8266 |
 .       |   |2 |BH1750  |bh1750 |789 |I2C |
 .       |   |3 |SI7021  |si7021 |760 |I2C |
 .  	    |   |4 |AnalogIn|temp   |798 |ADC |
@@ -54,15 +64,18 @@ ESPtest |114|1 |SysInfo |up     |810 |    |IO13-12|8266 |5C:CF:7F:19:68:B7|mega2
 .  	    |   |11|SysInfo |web    |... |
 .  	    |   |12|SysInfo |stack  |... |
 |||||||
-ESPneo1 |115|1 |        |       |    |    |       |8266 |A4:CF:12:C9:A0:BD|mega20191208
+ESPneo1 |mac|  |A4:CF:12:C9:A0:BD|mega20191208
+ESPneo1 |115|1 |        |       |    |    |       |8266 |
 .       |   |  |        |     	|    |	  |
 .       |   |  |        |     	|    |	  |
 |||||||
-ESPneo2 |116|1 |        |       |    |    |       |8266 |CC:50:E3:7C:EB:93|mega220191208
+ESPneo2 |mac|  |CC:50:E3:7C:EB:93|mega220191208
+ESPneo2 |116|1 |        |       |    |    |       |8266 |
 .       |   |  |        |     	|    |	  |
 .       |   |  |        |     	|    |	  |
 |||||||
-SO-pow1 |121|  |Switch  |Sw     |810 |    |       | --- |5C:CF:7F:92:CC:05|Espurna1.13.3
+SO-pow1 |mac|  |5C:CF:7F:92:CC:05|Espurna1.13.3
+SO-pow1 |121|  |Switch  |Sw     |810 |    |       | --- |
 .       |   |  |Current |Ampere |789 |I2C |
 .       |   |  |Voltage |Volt   |760 |I2C |
 .       |   |  |Act Pwr	|Watt   |798 |ADC |
@@ -71,7 +84,8 @@ SO-pow1 |121|  |Switch  |Sw     |810 |    |       | --- |5C:CF:7F:92:CC:05|Espur
 .  	    |   |  |Pwr fact|cos-phi|... |    |
 .  	    |   |  |Energy  |kWh    |... |    |
 |||||||
-SO-pow2 |122|  |Switch  |Sw     |731 |    |       | --- |5C:CF:7F:92:DC:B7|Espurna1.13.3
+SO-pow2 |mac|  |5C:CF:7F:92:DC:B7|Espurna1.13.3
+SO-pow2 |122|  |Switch  |Sw     |731 |    |       | --- |
 .       |   |  |Current |Ampere |741 |I2C |
 .       |   |  |Voltage |Volt   |739 |I2C |
 .       |   |  |Act Pwr	|Watt   |733 |ADC |
