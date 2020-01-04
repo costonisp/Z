@@ -7,32 +7,24 @@ ESP-GW  |102|1 |DS18b20 |DS18 	|800 |14  |IO 4-5 |65500|5C:CF:7F:41:32:AD|148
 .  	    |   |7 |SysInfo |load   |803 |	  |
 |||||||
 SO-RF   |103|1 |Switch  |Sw1  	|431 |0   |       |65500|5C:CF:7F:0C:D7:CA|145
-.       |   |3 |SysInfo |ram  	|... |    |
 .  	    |   |4 |SysInfo |up     |436 |	  |
 |||||||
 SO-FD   |104|1 |Switch  |Sw1    |421 |0   |       |65500|5C:CF:7F:81:47:8B|145
 .       |   |3 |SysInfo |up     |786 |    |
-.  		  |   |4 |SysInfo |ram  	|... |
 |||||||
 SO-BL   |105|1 |Switch  |Sw1    |397 |0   |       |65500|5C:CF:7F:81:4B:C4|145
 .       |   |3 |SysInfo |up     |486 |    |
-.  		  |   |4 |SysInfo |ram  	|... |	
 |||||||
 ESP2rel |106|1 |Output  |Relay1 |758 |14  |IO 4-5 |65500|60:01:94:0E:60:61|xxx
 .  		  |   |2 |Output  |Relay2 |759 |12  |
 .       |   |3 |SI7021  |       |642 |    |
 .       |   |5 |SysInfo |up     |785 |	  |
-.       |   |6 |SysInfo |ram    |... |    |
-.       |   |7 |SysInfo |load   |... |    |
-.       |   |8 |SysInfo |Vcc    |... |	  |
 |||||||
 SO-SL   |107|1 |Switch  |Sw1    |591 |0   |       |65500|5C:CF:7F:0C:B1:C0|145
 .       |   |3 |SysInfo |up     |592 |	  |
-.  	    |   |4 |SysInfo |ram    |... |	  |
 |||||||
 SO-4MB  |108|1 |Switch  |Sw1    |809 |0   |       |8266 |5C:CF:7F:0C:B4:4C|148
 .  	    |   |3 |SysInfo |up     |747 |	  |
-.  	    |   |4 |SysInfo |ram    |... |	  |
 |||||||
 ESPh801 |111|1 |PME-100 |lamel  |572 |I2C |IO 3-1 |     |5C:CF:7F:16:DC:70|147
 .       |   |2 |PME-101 |lamel= |425 |I2C |
@@ -45,9 +37,6 @@ ESPh801 |111|1 |PME-100 |lamel  |572 |I2C |IO 3-1 |     |5C:CF:7F:16:DC:70|147
 ESPlamel|112|1 |PME-100 |lamel  |667 |I2C |IO 5-4 |     |CC:50:E3:4B:CC:8A|148
 .       |   |2 |PME-101 |lamel= |749 |I2C |
 .       |   |3 |SysInfo |up     |... |    |
-.       |   |4 |SysInfo |ram    |... |    |
-.       |   |5 |SysInfo |load   |... |    |
-.       |   |6 |SysInfo |rrsi   |... |	  |
 |||||||
 ESPmcu1 |113|1 |SysInfo |up     |811 |    |       |8266 |5C:CF:7F:13:8C:E4|mega20191123
 .       |   |  |        |       |    |	  |
