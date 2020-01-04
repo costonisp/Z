@@ -1,4 +1,4 @@
-Name    |mac|MAC              |Name   |IDX |GPIO|sda-scl| .
+Name    |mac|MAC              |Name   |IDX |build|sda-scl| .
 --------|---|-----------------|-------|----|----|-------|----
 Task    |ip |device           |       |IDX |GPIO|sda-scl| ...
 ESP-GW  |102|5C:CF:7F:41:32:AD|udp 65500||Build 148|
