@@ -1,6 +1,6 @@
-Name    |mac|MAC              |udp-p2p|IDX |build|sda-scl| .
+name    |ip|mac              |udp-p2p| |build|sda-scl| .
 --------|---|-----------------|-------|----|----|-------|----
-Task    |ip |device           | name  |IDX |GPIO|sda-scl| ...
+Task    |   |device           | name  |IDX |GPIO|sda-scl| ...
 ESP-GW  |102|5C:CF:7F:41:32:AD|p65500||148|
 1       |   |DS18b20 |DS18 	|800 |14  |IO 4-5 |
 4       |   |Dummy   |Fan  	|... |    |
